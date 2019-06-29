@@ -8,6 +8,6 @@ Homepage: https://github.com/regolith-linux/regolith-desktop
 Vcs-Git: https://github.com/regolith-linux/regolith-rofi-config.git
 
 Package: regolith-rofi-config
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}
 Description: Regolith configuration for rofi launcher
