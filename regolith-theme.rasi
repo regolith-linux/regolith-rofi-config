@@ -22,18 +22,11 @@
   spacing: 0;
   background-color: transparent;
 
-  font: "Sourcecode Pro 16";
   text-color: @base0;
-}
-
-configuration {
-    show-icons: true;
-    drun-icon-theme: "Arc";
 }
 
 window {
   transparency: "real";
-  fullscreen: true;
   background-color: @base03t;
 }
 
