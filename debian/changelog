@@ -1,24 +1,18 @@
-regolith-rofi-config (1.1-1ubuntu1ppa1) bionic; urgency=medium
+regolith-i3xrocks-config (1.2-1ubuntu1ppa1) bionic; urgency=medium
 
-  * Remove rofi.conf, moving to Xresources.
-  * Remove some config items from theme, delegating to Xresources. 
+  * Fix time block. 
 
- -- Ken Gilmer <kgilmer@gmail.com>  Thu, 18 Jul 2019 20:49:41 -0700
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 23 Jul 2019 21:00:22 -0700
 
-regolith-rofi-config (1.0-1ubuntu1ppa1) bionic; urgency=medium
+regolith-i3xrocks-config (1.1-1ubuntu1ppa1) bionic; urgency=medium
 
-  * Add arm build. 
+  * Fix cpu_usage script.  
+  * Update battery with Xresource colors. 
 
- -- Ken Gilmer <kgilmer@gmail.com>  Fri, 28 Jun 2019 21:09:20 -0700
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 23 Jul 2019 20:54:08 -0700
 
-regolith-rofi-config (1.0-1ubuntu1) bionic; urgency=medium
-
-  * Fix path issue in makefile. 
-
- -- Ken Gilmer <kgilmer@gmail.com>  Sat, 23 Feb 2019 21:29:09 -0800
-
-regolith-rofi-config (1.0-1) bionic; urgency=medium
+regolith-i3xrocks-config (1.0-1ubuntu1ppa1) bionic; urgency=medium
 
   * Initial release
 
- -- Ken Gilmer <kgilmer@gmail.com>  Sat, 23 Feb 2019 20:12:02 -0800
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 21 Jul 2019 20:12:02 -0800
