@@ -27,7 +27,7 @@
 
 window {
   transparency: "real";
-  background-color: @base03t;
+  background-color: #222222ee;
 }
 
 mainbox {
