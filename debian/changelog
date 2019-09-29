@@ -1,3 +1,9 @@
+regolith-rofi-config (1.1-1ubuntu1ppa2) disco; urgency=medium
+
+  * Move to disco. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 29 Sep 2019 10:42:43 -0700
+
 regolith-rofi-config (1.1-1ubuntu1ppa1) bionic; urgency=medium
 
   * Remove rofi.conf, moving to Xresources.
