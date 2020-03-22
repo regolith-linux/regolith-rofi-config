@@ -1,3 +1,10 @@
+regolith-rofi-config (1.2.0) eoan; urgency=medium
+
+  * Add finder script.
+  * Remove deprecated theme file. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 21 Mar 2020 21:22:34 -0700
+
 regolith-rofi-config (1.1-1ubuntu1ppa2) disco; urgency=medium
 
   * Move to disco. 
