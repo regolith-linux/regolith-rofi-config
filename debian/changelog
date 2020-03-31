@@ -1,3 +1,10 @@
+regolith-rofi-config (1.2.1) eoan; urgency=medium
+
+  * Add limit to search terms for UI speed.
+  * Add Xres options for help and search count. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 31 Mar 2020 10:18:08 -0700
+
 regolith-rofi-config (1.2.0) eoan; urgency=medium
 
   * Add finder script.

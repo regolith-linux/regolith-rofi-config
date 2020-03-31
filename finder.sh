@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+ITEM_LIMIT=$(xrescat rofi.search.limit 64)
+SHOW_HELP=$(xrescat rofi.search.help "true")
+
 # This script has been adapted from https://github.com/davatorium/rofi-scripts/blob/master/rofi-finder/finder.sh
 if [ ! -z "$@" ]
 then
@@ -28,11 +31,12 @@ then
   then
     while read -r line; do
       echo "$line" \?\?
-    done <<< $(locate "$QUERY" 2>&1 | grep -v 'Permission denied\|Input/output error')
+    done <<< $(locate --limit $ITEM_LIMIT "$QUERY" 2>&1 | grep -v 'Permission denied\|Input/output error')
   else
-    locate "$QUERY" 2>&1 | grep -v 'Permission denied\|Input/output error'
+    locate --limit $ITEM_LIMIT "$QUERY" 2>&1 | grep -v 'Permission denied\|Input/output error'
   fi
-else
+elif [[ "$SHOW_HELP" == "true" ]]
+then
   echo "This dialog will return matches from all local files."
   echo "Type a search term, hit enter. Results are returned."
   echo "Type more for further filtering or scroll down."
