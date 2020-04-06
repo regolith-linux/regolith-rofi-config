@@ -9,5 +9,7 @@ Vcs-Git: https://github.com/regolith-linux/regolith-rofi-config.git
 
 Package: regolith-rofi-config
 Architecture: any
-Depends: ${misc:Depends}, mlocate
+Depends: ${misc:Depends},
+    libgnome2-bin,
+    mlocate
 Description: Regolith configuration for rofi launcher
