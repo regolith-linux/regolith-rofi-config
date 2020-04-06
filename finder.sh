@@ -11,11 +11,11 @@ then
   then
     if [[ "$@" == *\?\? ]]
     then
-      coproc ( gnome-open "${QUERY%\/* \?\?}"  > /dev/null 2>&1 )
+      coproc ( xdg-open "${QUERY%\/* \?\?}"  > /dev/null 2>&1 )
       exec 1>&-
       exit;
     else
-      coproc ( gnome-open "$@"  > /dev/null 2>&1 )
+      coproc ( xdg-open "$@"  > /dev/null 2>&1 )
       exec 1>&-
       exit;
     fi
