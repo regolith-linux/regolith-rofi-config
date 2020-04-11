@@ -1,3 +1,11 @@
+regolith-rofi-config (1.2.4) eoan; urgency=medium
+
+  * Add direct file launching to file finder.
+  * Cleanup and code comments.
+  * Explicitly handle tilde as $HOME in search. 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 11 Apr 2020 11:13:29 -0700
+
 regolith-rofi-config (1.2.3) eoan; urgency=medium
 
   * Move from gnome-open to xdg-open as former is deprecated. 
