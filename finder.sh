@@ -10,8 +10,7 @@ print_help() {
     echo "Type more for further filtering"
     echo "or scroll down"
     echo "Hit <enter> on a line to launch"
-    echo "To search again type: !<search_query>"
-    echo "To scroll horizontally type: <alt> ."
+    echo "To scroll horizontally: <alt> ."
 }
 
 if [ ! -z "$@" ]; then
@@ -53,5 +52,5 @@ if [ ! -z "$@" ]; then
   fi
 elif [[ "$SHOW_HELP" == "true" ]]; then
   #Initial execution, print help
-  echo "File search, enter !! for help"
+  print_help
 fi

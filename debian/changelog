@@ -1,3 +1,9 @@
+regolith-rofi-config (1.2.5-1) eoan; urgency=medium
+
+  * Simplify help 
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 13 Apr 2020 21:42:14 -0700
+
 regolith-rofi-config (1.2.4) eoan; urgency=medium
 
   * Add direct file launching to file finder.
