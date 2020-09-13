@@ -1,1 +1,2 @@
-finder.sh /usr/share/rofi/modi/
+modi/finder.sh /usr/share/rofi/modi/
+modi/look-selector.sh /usr/share/rofi/modi/
