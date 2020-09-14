@@ -1,3 +1,10 @@
+regolith-rofi-config (1.3.1-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix look-selector
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 13 Sep 2020 18:50:19 -0700
+
 regolith-rofi-config (1.3.0-1) bionic; urgency=medium
 
   [ Ken Gilmer ]

@@ -1,9 +1,10 @@
-#!/bin/bash
-if [[ -z "$@" ]]; then
-    /usr/bin/regolith-look list
-    rofi -modi Look:/usr/share/rofi/modi/look-selector.sh -show Look
+#!/usr/bin/env bash
+
+if [ "$@" ]; then
+    rm $HOME/.Xresources-regolith >/dev/null 2>&1
+    /usr/bin/regolith-look set $@ >/dev/null 2>&1
+    /usr/bin/regolith-look refresh >/dev/null 2>&1
+    exit 0
 else
-    rm $HOME/.Xresources-regolith 
-    /usr/bin/regolith-look set $@
-    /usr/bin/regolith-look refresh
+    /usr/bin/regolith-look list
 fi
