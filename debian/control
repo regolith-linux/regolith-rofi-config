@@ -11,8 +11,7 @@ Package: regolith-rofi-config
 Architecture: any
 Depends: ${misc:Depends},
     mlocate,
-    xdg-utils,
-    regolith-styles
+    xdg-utils
 Description: Regolith configuration for rofi launcher
  This package adds scripts to Rofi for file search and 
  perhaps other utilities in the future.
