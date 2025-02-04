@@ -1,3 +1,14 @@
+regolith-rofi-config (1.4.2-1) focal; urgency=medium
+
+  [ Khosrow Moossavi ]
+  * feat: enable github action to test pull requests
+  * feat: enable github action to publish to unstable
+  * feat: enable github action to publish to testing
+  * feat: enable github action to prepare release
+  * fix: create release tag from correct git sha
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 04 Feb 2025 03:20:48 +0000
+
 regolith-rofi-config (1.4.1-1) focal; urgency=medium
 
   [ Ken Gilmer ]
