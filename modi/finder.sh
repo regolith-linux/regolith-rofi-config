@@ -47,7 +47,7 @@ if [ ! -z "$@" ]; then
       exit;
     else
       # Search for query
-      locate --limit $ITEM_LIMIT $QUERY 2>&1 | grep -v 'Permission denied\|Input/output error'
+      locate --limit "$ITEM_LIMIT" -- "$QUERY" 2>&1 | grep -v 'Permission denied\|Input/output error'
     fi
   fi
 elif [[ "$SHOW_HELP" == "true" ]]; then
